@@ -7,9 +7,9 @@ export interface Ec2EnclaveCertificateIamRoleAssociationConfig extends cdktf.Ter
 
   readonly id?: string;
 
-  readonly CertificateArn: string;
+  readonly certificateArn: string;
 
-  readonly RoleArn: string;
+  readonly roleArn: string;
 }
 
 export class Ec2EnclaveCertificateIamRoleAssociation extends cdktf.TerraformResource {
@@ -38,8 +38,8 @@ export class Ec2EnclaveCertificateIamRoleAssociation extends cdktf.TerraformReso
     });
 
     this._id = config.id;
-    this._certificateArn = config.CertificateArn;
-    this._roleArn = config.RoleArn;
+    this._certificateArn = config.certificateArn;
+    this._roleArn = config.roleArn;
   }
 
   // id - computed: true, optional: true, required: false

@@ -640,6 +640,7 @@ The following submodules are available:
 - [ec2ClientVpnEndpoint](./ec2ClientVpnEndpoint.md)
 - [ec2ClientVpnNetworkAssociation](./ec2ClientVpnNetworkAssociation.md)
 - [ec2ClientVpnRoute](./ec2ClientVpnRoute.md)
+- [ec2EnclaveCertificateIamRoleAssociation](./ec2EnclaveCertificateIamRoleAssociation.md)
 - [ec2Fleet](./ec2Fleet.md)
 - [ec2Host](./ec2Host.md)
 - [ec2LocalGatewayRoute](./ec2LocalGatewayRoute.md)

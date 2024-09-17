@@ -344,6 +344,7 @@ export * as ec2TransitGatewayRouteTableAssociation from './ec2-transit-gateway-r
 export * as ec2TransitGatewayRouteTablePropagation from './ec2-transit-gateway-route-table-propagation';
 export * as ec2TransitGatewayVpcAttachment from './ec2-transit-gateway-vpc-attachment';
 export * as ec2TransitGatewayVpcAttachmentAccepter from './ec2-transit-gateway-vpc-attachment-accepter';
+export * as ec2EnclaveCertificateIamRoleAssociation from './ec2-enclave-certificate-iam-role-association';
 export * as ecrLifecyclePolicy from './ecr-lifecycle-policy';
 export * as ecrPullThroughCacheRule from './ecr-pull-through-cache-rule';
 export * as ecrRegistryPolicy from './ecr-registry-policy';

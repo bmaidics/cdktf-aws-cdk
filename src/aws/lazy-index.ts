@@ -344,6 +344,7 @@ Object.defineProperty(exports, 'ec2TransitGatewayRouteTableAssociation', { get: 
 Object.defineProperty(exports, 'ec2TransitGatewayRouteTablePropagation', { get: function () { return require('./ec2-transit-gateway-route-table-propagation'); } });
 Object.defineProperty(exports, 'ec2TransitGatewayVpcAttachment', { get: function () { return require('./ec2-transit-gateway-vpc-attachment'); } });
 Object.defineProperty(exports, 'ec2TransitGatewayVpcAttachmentAccepter', { get: function () { return require('./ec2-transit-gateway-vpc-attachment-accepter'); } });
+Object.defineProperty(exports, 'ec2EnclaveCertificateIamRoleAssociation', { get: function () { return require('./ec2-enclave-certificate-iam-role-association'); } });
 Object.defineProperty(exports, 'ecrLifecyclePolicy', { get: function () { return require('./ecr-lifecycle-policy'); } });
 Object.defineProperty(exports, 'ecrPullThroughCacheRule', { get: function () { return require('./ecr-pull-through-cache-rule'); } });
 Object.defineProperty(exports, 'ecrRegistryPolicy', { get: function () { return require('./ecr-registry-policy'); } });
